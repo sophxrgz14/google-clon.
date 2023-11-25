@@ -12,6 +12,7 @@
  </ol>
 
  ### Preview
- ![image](https://github.com/sophxrgz14/google-clon./assets/151889411/75d953d7-1237-487f-807e-ee9012633081)
+![image](https://github.com/sophxrgz14/google-clon./assets/151889411/ffb3019e-384f-429c-9e14-9d5fbdb41aea)
+
 
   
