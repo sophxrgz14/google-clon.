@@ -1,0 +1,169 @@
+body{
+    background-color: rgba(32,33,36,1);
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-right-section{
+width: 250px;
+height: auto;
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+.nav-right-section a{
+    margin-right: 25px;
+    color: #e8eaed;
+}
+
+nav .nav-right-section img{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/e8eaed/circled-menu--v2.png');
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    /*align-self: center;*/
+    background-position: center;
+    background-repeat: none;
+    
+}
+main{
+    margin-top: 30px;
+    text-align: center;
+}
+main .main-logo{
+    margin: 0 auto;
+    width: 350px;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+width: 310px;
+height: 100px;
+}
+main .main-input{
+width: 530px;
+margin: 0 auto;
+margin-bottom: 35px;
+
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(32,33,36,1);
+}
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #f7f7f8;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+main .main-input-container:hover{
+box-shadow: 0 1px 6px 0 #dfe1e5;
+}
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/material-rounded/24/e8eaed/search.png');
+    width: 18px;
+    height: 18px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+}
+main .main-input .cam-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/192px-Google_Lens_Icon.svg.png');
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+
+}
+main .main-buttons{
+    background-color:  rgba(32,33,36,1);
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #303134;
+    font-size: 14px;
+    color: #e8eaed;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 12px;
+    border-color: #303134;
+}
+main .main-buttons button:hover{
+    border: 1px solid #e8eaed;
+    box-shadow: 0 0.5px 1px  #1a1818;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #1a1818;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{  
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right; 
+}
+footer il{
+    margin-left: 10px;
+}
+footer a{
+    color: #e8eaed;
+    margin-left: 30px;
+}
