@@ -1,10 +1,10 @@
 # PÁGINA CLONE DE GOOGLE
-## Descripción👀
+## Description👀
 1st project : Google clon interface 🎉
 
  For this project the code editor *Visual Studio Code* and the languages **html and css** were used
  
- ### Elementos del proyecto
+ ###Elements
  <ol>
    <li>Navigation menu</li>
    <li>Logo and search input</li>
